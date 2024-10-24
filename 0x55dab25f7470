@@ -1,0 +1,9 @@
+.tag .headline {
+	font-size: 25px;
+	background-color: #1b2a3c;
+	color: #dab940;
+	text-align: center;
+	padding: 10px;
+	margin: 0px 6px 0px 6px;
+}
+

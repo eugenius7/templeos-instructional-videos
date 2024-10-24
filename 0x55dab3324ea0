@@ -1,0 +1,15 @@
+.category .headline {
+	font-size: 25px;
+	background-color: #1b2f54;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 0px 6px 0px 6px;
+}
+
+.category .desc, .tag .desc {
+	padding: 10px 20px 10px 20px;	
+ 	background-color: rgb(60, 60, 60);
+    border-radius: 5px;
+	margin: 10px;
+}

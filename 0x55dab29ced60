@@ -1,0 +1,10 @@
+.lang {
+	padding-right: 20px;
+}
+.lang select {
+	font-size: 18px;
+	background-color: #111;
+	color: rgb(170, 170, 170);
+	border: 0px;
+	outline: none;
+}

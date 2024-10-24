@@ -1,0 +1,17 @@
+footer {
+	background-color: #202020;
+	padding: 10px;
+}
+footer p {
+	color: white;
+	margin: 0 auto;
+	width: 70%;
+}
+footer p a {
+	color: #b7ab6a;
+	text-decoration: none;
+}
+footer p a:hover {
+	text-decoration: underline;
+
+}

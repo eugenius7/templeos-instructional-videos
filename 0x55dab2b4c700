@@ -1,0 +1,15 @@
+.icon-all svg {
+	fill: rgb(200, 200, 200);
+}
+.sidebar .wrap-items:hover .icon-all svg {
+	fill: rgb(50, 50, 50);
+}
+.icon-all svg {
+	width: 18px;
+}
+.icon-search svg {
+	width: 14px;
+}
+.icon-share, .icon-donate {
+	padding-right: 5px;
+}

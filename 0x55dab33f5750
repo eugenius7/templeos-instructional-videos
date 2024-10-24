@@ -1,0 +1,262 @@
+body {
+    background-color: #e8e7e2;
+}
+.main-content {
+    background-color: #ebebeb;
+}
+header {
+    background-color: #ccc;
+}
+.sidebar .item {
+	color: #000;
+}
+.box {
+    background-color: #ececec;
+    border: #cecece solid 1px;
+}
+.box:hover {
+  	box-shadow: 1px 1px 15px #000;
+}
+.box:hover .caption .title {
+	color: #907c32;
+	font-weight: 700;
+}
+.box .caption .title {
+	color: #484848;
+}
+.box .caption .date {
+	color: rgb(50, 50, 50);
+}
+header {
+ background: rgb(27,42,60);
+}
+.main-content {
+    color: black;
+}
+.single .side .recommend {
+    color: black;
+}
+.single .date {
+    color: #333;
+}
+.single .content {
+    color: #000;
+}
+.main-content a {
+    color: #005bbd;
+}
+.single .main .share span {
+    color: #014080;
+}
+.single .main .social img {
+    background-color: black;
+}
+.single .main .donation a {
+    color: #014080;
+}
+.single .side .caption a {
+    color: #000;
+}
+.single .side .date {
+    color: #333;
+}
+header .search input[type="text"] {
+    background-color: #0000;
+    color: #fff;
+}
+header .search button {
+    background-color: #0000;
+    color: #b1b1b1;
+}
+.lang select {
+    background-color: #0000;
+    color: #a2a2a2;
+}
+header .menu .line {
+    background-color: #eaeaea6e;
+}
+header .menu .void {
+    background-color: #0000;
+}
+
+.single .main .channel a {
+	color: black;
+}
+.single .main .channel a:hover {
+	color: #005bbd;
+}
+.single .side .caption a {
+    color: #212529;
+}
+.sidebar .item {
+    color: #212529;
+}
+.icon-all svg {
+	fill: rgb(50, 50, 50);
+}
+.icon-search svg {
+	fill: rgb(200, 200, 200);
+}
+.box:hover .caption .title a {
+	color: #0a67cc;
+}
+.single .main .embed .code, .single .main .embed textarea {
+	border: 1px solid black;
+	color: black;
+}
+
+
+/* CAT/TAG DESCRIPTION */
+.category .desc, .tag .desc {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* SIGNUP */
+.single .main .email-sub {
+    padding-bottom: 10px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    background: linear-gradient(220deg, rgb(174, 162, 96) 0%, rgb(198, 189, 108) 16%, rgb(215, 205, 111) 19%, rgb(183, 174, 92) 30%, rgb(171, 163, 95) 36%, rgb(169, 159, 91) 40%, rgb(181, 170, 92) 48%, rgb(150, 139, 63) 55%, rgb(174, 163, 91) 68%, rgb(198, 189, 108) 72%, rgb(161, 150, 72) 83%, rgb(161, 151, 78) 90%, rgb(156, 136, 52) 100%);
+  background-size: auto;
+  background-position: 50% 50%;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.32) 0px 8px 12px 0px;
+}
+.single .main .email-sub .title {
+    padding:10px;
+    font-family: Neuton;
+    color:#fff;
+    text-shadow: 2px 2px #000;
+    font-size: 200%;
+    text-align: center;
+}
+.single .main .email-sub .button {
+    background-color: #1d67d6;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.single .main .email-sub .button:hover {
+    background-color: #1576ed;
+}
+.single .main .show-more .text {
+    cursor: pointer;
+    font-size: 13px;
+    color: #014080;
+    font-weight: bold;
+}
+
+
+
+/* Page.php */
+.main-content .page {
+	background-color: #F7F7F7;
+	box-shadow: 0 10px 10px -5px #555;
+  border-image: 
+    linear-gradient( to bottom, #F3E7BB, #DCCC95) 1 100%;
+}
+
+.main-content .page .line-title {
+background: rgb(205,202,172);
+background: -moz-linear-gradient(90deg, rgba(205,202,172,1) 0%, rgba(247,247,247,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(205,202,172,1) 0%, rgba(247,247,247,1) 100%);
+background: linear-gradient(90deg, rgba(205,202,172,1) 0%, rgba(247,247,247,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdcaac",endColorstr="#f7f7f7",GradientType=1);
+}
+
+.main-content .page a {
+	color: #005bbd;
+}
+
+.main-content .page a:hover {
+	color: #005bbd;
+}
+
+.main-content .page ul li {
+	padding: 10px 0 0 0;
+}
+
+
+/* Loading More */
+
+.main-content .loading {
+	background: #f2f2f2;
+	color: #777;
+	border: #ccc solid 1px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+.main-content .loading:hover {
+	color: #888;
+	box-shadow: inset 3px 3px 5px #777;
+	background: #e5e2d0;
+}
+
+/* Footer */
+footer {
+	background-color: #e8e7e2;
+}
+footer p {
+	color: black;
+}
+footer p a {
+    color: #005bbd;
+}
+
+/* Latest News sidebar */
+.latest-title {
+	color: black;
+	box-shadow: 0 2px 3px #999;
+	 background: rgb(255,255,255);
+background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#eee9e2",GradientType=1); 
+}
+.latest-news-items .single-news-item {
+	color: black;
+ background: rgb(238,233,226);
+	box-shadow: 0 2px 3px #999;
+}
+.latest-news-items .single-news-item:hover {
+	color: #900;
+ background: rgb(255,255,255);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#eee9e2",GradientType=1); 
+}
+
+.latest-news-items .more-news a {
+	color: black;
+	box-shadow: 0 2px 3px #999;
+	 background: rgb(255,255,255);
+background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,233,226,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#eee9e2",GradientType=1); 
+}
+.latest-news-items .more-news:hover a {
+	color: #900;
+ background: rgb(255,252,234);
+background: -moz-radial-gradient(circle, rgba(255,252,234,1) 0%, rgba(223,210,161,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(255,252,234,1) 0%, rgba(223,210,161,1) 100%);
+background: radial-gradient(circle, rgba(255,252,234,1) 0%, rgba(223,210,161,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fffcea",endColorstr="#dfd2a1",GradientType=1); 
+}
